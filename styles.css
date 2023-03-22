@@ -20,9 +20,12 @@ img,picture,video,canvas,svg {
 
 header {
     background-color: rgb(214, 224, 224);
-    height: 50px;
-    padding: 20px 70px;
-    
+    height: 40px;
+    padding: 2% 10%;
+    margin: auto;
+    width: 100%;
+    max-width: none;
+   
 }
 
 img {
@@ -50,15 +53,14 @@ ul {
     position: relative;
     left: 8px;
     bottom: 7px;
-   
-    
+
 }
 .first {
     background-color: rgba(218, 242, 245, 0.938);
     height: 200px;
     text-align: center;
-    padding: 70px; 
-}
+    padding: 70px;
+    }
 .p1 {
     display: inline-block;
     font-size: larger;
@@ -75,10 +77,14 @@ ul {
 }
 
 .sec {
-    padding: 20px 70px;
+    padding:2% 10%;
+    margin: auto;
+    width: 100%;
+    max-width: 1500px;
 }
 .sec p,h3 {
     margin: 10px;
+    
 }
 h3 {
     color: rgb(22, 108, 206);
@@ -86,10 +92,15 @@ h3 {
     font-weight:700;
 }
 .section3 {
-    padding: 0px 50px;
+    padding:1% 7%;
+    margin: auto;
+    width: 100%;
+    max-width: 1500px;
 }
 .third {
-    padding:20px 20px ;
+    /* padding:20px 20px ;
+     */
+     padding: 2% 4%;
     background-color: rgba(170, 182, 236, 0.397);
     border-radius: 5px;
 }
@@ -104,13 +115,17 @@ h3 {
 }
 
 .section4 {
-    padding: 0px 50px 30px 50px;
     margin-top: 20px;
+    padding:1% 7%;
+    margin: auto;
+    width: 100%;
+    max-width: 1500px;
     
 }
 
 .fourth {
-    padding:20px 20px ;
+    /* padding:20px 20px ; */
+    padding: 2% 4%;
     background-color: rgba(243, 182, 113, 0.37);
     border-radius: 5px;
 }
